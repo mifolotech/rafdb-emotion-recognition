@@ -1,0 +1,26 @@
+# Dataset (RAF-DB licence: must not be redistributed)
+RAFDB.zip
+*.zip
+dataset_rafdb/
+data/
+train/
+test/
+
+# Model weights and checkpoints (published as a GitHub Release instead)
+*.pth
+*.pt
+*.h5
+outputs/
+training.done
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
